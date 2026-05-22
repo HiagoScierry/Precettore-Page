@@ -20,7 +20,7 @@ const MentoriaHubPage: React.FC = () => {
         <section className='pt-32 pb-20 max-w-360 mx-auto  px-4 md:px-10 lg:px-18 text-center relative overflow-hidden'>
           <div className='inline-block px-4 py-1 border border-brand-primary/30 rounded-full mb-6 bg-brand-primary/5'>
             <span className='text-brand-primary text-xs font-black uppercase tracking-[0.2em]'>
-              Mentoria Inteligente
+              Método Inteligente
             </span>
           </div>
           <h1 className='text-5xl md:text-7xl font-black uppercase tracking-tighter mb-6'>
@@ -30,9 +30,12 @@ const MentoriaHubPage: React.FC = () => {
             </span>
           </h1>
           <p className='text-brand-light/60 text-lg md:text-xl max-w-3xl mx-auto mb-10'>
-            Uma mentoria que une cronograma personalizado, plataforma
-            inteligente, inteligência artificial e acompanhamento real de
-            evolução para acelerar sua aprovação.
+            Um método que nasceu da experiência de quem passou por concursos e
+            residências médicas e entendeu que mesmo que você tenha o melhor
+            material do mundo, sem os três pilares: cronograma inteligente
+            personalizado, disciplina estratégica e acompanhamento real, você
+            terá dificuldades em sua aprovação. Está é a solução que falta para
+            transformar suas horas de estudo em aprovação!
           </p>
           <a
             href='#trilhas'
@@ -54,7 +57,7 @@ const MentoriaHubPage: React.FC = () => {
               </span>
               <h2 className='text-3xl md:text-5xl font-black uppercase tracking-tight mb-4'>
                 Passos após entrar na{' '}
-                <span className='text-[#C5A47E]'>Mentoria</span>
+                <span className='text-[#C5A47E]'>Precettore CODE</span>
               </h2>
             </div>
 

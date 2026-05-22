@@ -43,9 +43,9 @@ const TutorySection: React.FC = () => {
     {
       //MUDAR ESTE E ENCAIXALO CORRETAMENTE NO GRID
       icon: <BrainCircuit className='text-purple-400' size={28} />,
-      title: 'Material Premium',
+      title: 'Mentoria PRECETTORE CODE',
       description:
-        'Não adianta estudar e buscar aprovação usando um material superficial, receba uma material completo feito por médicos especialistas e experientes em concursos.',
+        'A aprovação em exames de alto nível não exige apenas conhecimento, exige precisão. É por isso que criamos o Método CODE: o verdadeiro código da aprovação. Uma arquitetura de raciocínio clínico e estratégico desenhada para decodificar o padrão das bancas. Pare de memorizar e comece a raciocinar como um especialista.',
     },
   ];
 
@@ -60,19 +60,19 @@ const TutorySection: React.FC = () => {
             A Experiência Tutory
           </h2>
           <p className='text-white/60 text-sm leading-relaxed'>
-            O <span className='text-white font-bold'>Precettore Code</span> não
-            te entrega apenas PDFs ou aulas gravadas soltas. Toda a sua
-            preparação é gerenciada pela inteligência de dados da plataforma
-            Tutory.
+            A <span className='text-white font-bold'>Plataforma Tutory</span>{' '}
+            transforma seu material em um plano de estudos personalizado,
+            organiza a sua semana, programa suas revisões automaticamente e
+            mostra sua evolução real com estatística. Gera feedbacks de melhoria
+            real. Analisando matéria por matéria, dia após dia.
           </p>
         </div>
         <div className='lg:col-span-7 bg-brand-primary/5 border border-brand-primary/10 rounded-2xl p-6 flex items-start gap-4'>
           <ShieldAlert className='text-brand-primary shrink-0 mt-1' size={20} />
           <p className='text-xs md:text-sm text-brand-light/80 font-medium leading-relaxed'>
-            A maioria dos médicos são reprovados não por falta de esforço, mas
-            por um estudo desestruturado e um cronograma ineficiente. A Tutory
-            elimina essa desorganização através de um diagnóstico inteligente:
-            cada erro cometido molda automaticamente sua estratégia de amanhã,
+            A Plataforma Tutory foi criada para médicos e estudantes de medicina
+            que desejam ter um plano de estudo personalizado e inteligente,
+            transformando cada erro cometido na sua estratégia de amanhã,
             garantindo que você estude exatamente o que precisa para ser
             aprovado.
           </p>
@@ -95,9 +95,7 @@ const TutorySection: React.FC = () => {
             <h3 className='text-xl font-bold text-white mb-3 uppercase tracking-wide'>
               {feat.title}
             </h3>
-            <p className='text-white/50 text-xs md:text-sm leading-relaxed'>
-              {feat.description}
-            </p>
+            <p className='text-white/50 leading-relaxed'>{feat.description}</p>
           </div>
         ))}
       </div>

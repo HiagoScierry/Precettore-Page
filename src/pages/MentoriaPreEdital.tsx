@@ -55,7 +55,7 @@ const MentoriaPosEdital: React.FC = () => {
                 Mentoria Code
                 <br />
                 <span className='text-transparent bg-clip-text bg-linear-to-r from-brand-primary to-cyan-400'>
-                  Pre-Edital
+                  Pré-Edital
                 </span>
               </h1>
               <p className='text-lg md:text-xl text-brand-light/70 leading-relaxed max-w-3xl'>
@@ -74,7 +74,7 @@ const MentoriaPosEdital: React.FC = () => {
         {/* SEÇÃO DE ENTREGA (Os 3 Pilares Tecnológicos do Espelho) */}
         <section className='py-24 border-white/5'>
           <div className='max-w-360 mx-auto px-6 md:px-12 lg:px-20'>
-            <div className='grid md:grid-cols-3 gap-12 mx-auto'>
+            <div className='grid md:grid-cols-2 gap-12 mx-auto'>
               {/* Card 1: Planejamento */}
               <div className='flex flex-col gap-4 group'>
                 <div className='w-12 h-12 bg-brand-primary/10 rounded-xl flex items-center justify-center text-brand-primary group-hover:bg-brand-primary group-hover:text-brand-dark transition-all duration-300'>
@@ -90,22 +90,7 @@ const MentoriaPosEdital: React.FC = () => {
                 </p>
               </div>
 
-              {/* Card 2: Banco de Dados */}
-              <div className='flex flex-col gap-4 group'>
-                <div className='w-12 h-12 bg-brand-primary/10 rounded-xl flex items-center justify-center text-brand-primary group-hover:bg-brand-primary group-hover:text-brand-dark transition-all duration-300'>
-                  <Database size={24} />
-                </div>
-                <h4 className='text-xl font-black text-white uppercase tracking-wide'>
-                  +200k Questões
-                </h4>
-                <p className='text-brand-light/60 text-sm leading-relaxed'>
-                  Acesso completo ao banco inteligente. Mais de 108 mil questões
-                  comentadas alternativa por alternativa e 75 mil resoluções em
-                  vídeo por professores especialistas.
-                </p>
-              </div>
-
-              {/* Card 3: Ecossistema de Suporte */}
+              {/* Card 2: Ecossistema de Suporte */}
               <div className='flex flex-col gap-4 group'>
                 <div className='w-12 h-12 bg-brand-primary/10 rounded-xl flex items-center justify-center text-brand-primary group-hover:bg-brand-primary group-hover:text-brand-dark transition-all duration-300'>
                   <MessagesSquare size={24} />

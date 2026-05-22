@@ -34,7 +34,7 @@ const PricingPlans: React.FC<PricingPlansProps> = ({ plans }) => {
             </span>
           </div>
           <h2 className='text-white text-5xl md:text-7xl font-black tracking-tighter uppercase mb-4'>
-            Precettore <span className='text-[#C5A47E]'>APROVA</span>
+            Precettore <span className='text-[#C5A47E]'>CODE</span>
           </h2>
           <p className='font-serif italic text-[#C5A47E] text-xl md:text-2xl opacity-80'>
             temos 2 formatos exclusivos para você

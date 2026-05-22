@@ -69,13 +69,13 @@ const Header: React.FC = () => {
                   to='/mentoria-pos-edital'
                   className='block px-4 py-3 text-xs font-bold uppercase tracking-tighter text-white hover:bg-brand-primary hover:text-brand-dark rounded-lg transition-colors'
                 >
-                  Precettore Code Pos Edital
+                  Precettore Code Pós Edital
                 </Link>
                 <Link
                   to='/mentoria-pre-edital'
                   className='block px-4 py-3 text-xs font-bold uppercase tracking-tighter text-white hover:bg-brand-primary hover:text-brand-dark rounded-lg transition-colors'
                 >
-                  Precettore Code Pre Edital
+                  Precettore Code Pré Edital
                 </Link>
               </div>
             </div>
@@ -106,18 +106,22 @@ const Header: React.FC = () => {
           {/* Seção Trilha no Mobile (Aberto direto, sem dropdown) */}
           <div className='flex flex-col gap-3'>
             <span className='text-sm font-black uppercase tracking-widest text-brand-primary border-b border-white/10 pb-2'>
-              Trilhas
+              Mentorias
             </span>
             <Link
-              to='/trilha-dominio-inep'
+              to='/mentoria-pos-edital'
               onClick={closeMobileMenu}
-              className='pl-4 text-base font-bold text-white uppercase tracking-tighter'
+              className='block px-4 py-3 text-xs font-bold uppercase tracking-tighter text-white hover:bg-brand-primary hover:text-brand-dark rounded-lg transition-colors'
             >
-              Domínio INEP – 1ª Fase
+              Precettore Code Pós Edital
             </Link>
-            <span className='pl-4 text-xs font-bold text-white/30 uppercase tracking-widest italic'>
-              Em breve: 2ª Fase Prática
-            </span>
+            <Link
+              to='/mentoria-pre-edital'
+              onClick={closeMobileMenu}
+              className='block px-4 py-3 text-xs font-bold uppercase tracking-tighter text-white hover:bg-brand-primary hover:text-brand-dark rounded-lg transition-colors'
+            >
+              Precettore Code Pré Edital
+            </Link>
           </div>
 
           <Link

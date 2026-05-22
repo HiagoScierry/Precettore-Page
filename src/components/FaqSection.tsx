@@ -18,7 +18,7 @@ const FaqSection: React.FC = () => {
     {
       question: 'Além da mentoria tenho acesso aos cursos?',
       answer:
-        'Sim. Além da Mentoria, você ainda terá acesso a PDFs e videoaulas; Livro; Monitor de Performance; Sistema de Questões; Cursos Exclusivos; Fórum de Dúvidas;Resumos; Mapas Mentais; Marcação dos Aprovados.',
+        'Sim. Além da Mentoria, de acordo com seu plano escolhido você poderá ter acesso a PDFs e videoaulas; Livro; Monitor de Performance; Sistema de Questões; Cursos Exclusivos; Fórum de Dúvidas;Resumos; Mapas Mentais; Marcação dos Aprovados',
     },
     {
       question: 'Existe um prazo de garantia',
@@ -28,13 +28,13 @@ const FaqSection: React.FC = () => {
     {
       question: 'Qual a periodicidade das reuniões?',
       answer:
-        'Na Precettore Code você terá reuniões individuais a cada 4 semanas e reuniões em grupo a cada 15 dias.',
+        'Na Precettore Code você terá reuniões individuais e em grupo de acordo com seu plano.',
     },
     {
       question:
         'Adquiri a Assinatura Precettore Code. E agora, como tenho acesso ao Mentor?',
       answer:
-        'Assim que confirmar o pagamento da compra da sua Assinatura, você receberá um e-mail com o link de um formulário.Você será instruído a preencher o FDI (Formulário de Diagnóstico Inicial). O FDI vai solicitar informações sobre os seus estudos (objetivo, histórico, etc), sua rotina (quantas horas tem disponível por semana, se trabalha e estuda etc), além de minissimulados;',
+        'Assim que confirmar o pagamento da compra de seu plano, você receberá um e-mail com o link de um formulário.Você será instruído a preencher o FDI (Formulário de Diagnóstico Inicial). O FDI vai solicitar informações sobre os seus estudos (objetivo, histórico, etc), sua rotina (quantas horas tem disponível por semana, se trabalha e estuda etc), além de minissimulados;',
     },
     {
       question: 'Como o Mentor monta a minha cronograma?',
@@ -50,16 +50,6 @@ const FaqSection: React.FC = () => {
       question: 'Por que contratar a Mentoria da Precettore Code?',
       answer:
         'A Mentoria da Precettore Code é acompanhamento individualizado feito por um médico especialista com histórico de aprovação diversos concursos (residências médicas, concursos públicos  e provas de tititulo de especialista) e está habilitado a ajudar outros alunos na organização dos estudos. O que ocorre tanto pela identificação de problemas e vulnerabilidades como também na ajuda na definição de “como” e “o quê” deve ser estudado para ter resultados mais rápidos. Aqui na Precettore Code, o Mentor para é um dos principais diferenciais da nossa Assinatura e que irá caminhar com você indicando o melhor caminho a seguir até sua aprovação.',
-    },
-    {
-      question: 'Qual a periodicidade das reuniões?',
-      answer:
-        'Na Precettore Code você terá reuniões individuais a cada 4 semanas e reuniões em grupo a cada 15 dias.',
-    },
-    {
-      question: 'Qual a periodicidade das reuniões?',
-      answer:
-        'Na Precettore Code você terá reuniões individuais a cada 4 semanas e reuniões em grupo a cada 15 dias.',
     },
   ];
 
@@ -87,12 +77,12 @@ const FaqSection: React.FC = () => {
           return (
             <div
               key={index}
-              className='bg-white/[0.02] border border-white/5 rounded-xl overflow-hidden transition-all duration-300'
+              className='bg-white/2 border border-white/5 rounded-xl overflow-hidden transition-all duration-300'
             >
               {/* Botão da Pergunta */}
               <button
                 onClick={() => toggleFaq(index)}
-                className='w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-bold text-white hover:bg-white/[0.02] transition-all'
+                className='w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-bold text-white hover:bg-white/2 transition-all'
               >
                 <span className='text-base md:text-lg tracking-wide'>
                   {item.question}
