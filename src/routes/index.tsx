@@ -5,6 +5,7 @@ import ContactPage from '../pages/ContactPage';
 import MentoriaHubPage from '../pages/MentoriaHubPage';
 import MentoriaPosEdital from '../pages/MentoriaPosEdital';
 import MentoriaPreEdital from '../pages/MentoriaPreEdital';
+import QuemSomos from '../pages/QuemSomos';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const AppRoutes: React.FC = () => {
         <Route path='/mentoria-pos-edital' element={<MentoriaPosEdital />} />
         <Route path='/mentoria-pre-edital' element={<MentoriaPreEdital />} />
         <Route path='/contato' element={<ContactPage />} />
+        <Route path='/quem-somos' element={<QuemSomos />} />
 
         <Route path='*' element={<HomePage />} />
       </Routes>

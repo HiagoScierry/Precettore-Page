@@ -82,6 +82,13 @@ const Header: React.FC = () => {
           </div>
 
           <Link
+            to='/quem-somos'
+            className='flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-white hover:text-brand-primary transition-colors'
+          >
+            Quem Somos
+          </Link>
+
+          <Link
             to='/contato'
             className='flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-white hover:text-brand-primary transition-colors'
           >
