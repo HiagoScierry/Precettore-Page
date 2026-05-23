@@ -3,7 +3,7 @@ import React from 'react';
 const WhatsappFloatButton: React.FC = () => {
   return (
     <a
-      href='https://wa.me/5527999999999?text=teste' // Substitua pelo número real do cliente
+      href='https://wa.me/5527997627631?text=Olá equipe Precettore gostaria de tirar uma duvida.'
       target='_blank'
       rel='noopener noreferrer'
       aria-label='Contato via WhatsApp'

@@ -79,11 +79,18 @@ const ContactPage: React.FC = () => {
                     <span className='font-bold text-lg'>WhatsApp</span>
                   </div>
                   <p className='text-white/40 text-sm mb-4'>
-                    Tel: (11) 93244-3698
+                    Tel: (27) 99762-7631
                   </p>
-                  <button className='w-full bg-brand-primary hover:bg-brand-primary/90 text-brand-dark font-black py-3 rounded-xl transition-all uppercase text-sm tracking-tighter'>
-                    Enviar mensagem
-                  </button>
+                  <a
+                    href='https://wa.me/5527997627631?text=Olá equipe Precettore gostaria de tirar uma duvida.'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    aria-label='Contato via WhatsApp'
+                  >
+                    <button className='w-full bg-brand-primary hover:bg-brand-primary/90 text-brand-dark font-black py-3 rounded-xl transition-all uppercase text-sm tracking-tighter'>
+                      Enviar mensagem
+                    </button>
+                  </a>
                 </div>
 
                 {/* Bloco E-mail */}
@@ -96,7 +103,7 @@ const ContactPage: React.FC = () => {
                     href='mailto:contato@precettore.com.br'
                     className='text-brand-primary hover:underline text-sm break-all'
                   >
-                    contato@precettore.com.br
+                    precettore.med@gmail.com
                   </a>
                 </div>
               </div>

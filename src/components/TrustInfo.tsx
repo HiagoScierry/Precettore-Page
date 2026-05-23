@@ -41,11 +41,11 @@ const TrustInfo: React.FC = () => {
             <div className='flex items-center gap-3 text-white/60 hover:text-brand-primary transition-colors cursor-pointer'>
               <Mail size={18} />
               <span className='text-sm font-medium'>
-                contato@precettore.example
+                precettore.med@gmail.com
               </span>
             </div>
             <a
-              href='https://wa.me/seunumeroaqui'
+              href='https://wa.me/5527997627631?'
               target='_blank'
               rel='noopener noreferrer'
             >

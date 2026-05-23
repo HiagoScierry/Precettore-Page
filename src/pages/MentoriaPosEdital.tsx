@@ -20,6 +20,7 @@ const MentoriaPosEdital: React.FC = () => {
       value: '199,00',
       total: '398,00',
       highlight: false,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE Pós-Edital.Gostaria de agendar minha entrevista de alinhamento para o plano Precettore Code 2.`,
     },
     {
       name: 'Precettore Code 3',
@@ -30,6 +31,7 @@ const MentoriaPosEdital: React.FC = () => {
       value: '189,90',
       total: '569,70',
       highlight: true,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE Pós-Edital.Gostaria de agendar minha entrevista de alinhamento para o plano Precettore Code 3.`,
     },
   ];
 

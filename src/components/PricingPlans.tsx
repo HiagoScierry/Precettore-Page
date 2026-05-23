@@ -16,6 +16,7 @@ export type PlanType = {
   value: string;
   total: string;
   highlight: boolean;
+  menssage: string;
 };
 
 interface PricingPlansProps {
@@ -102,15 +103,22 @@ const PricingPlans: React.FC<PricingPlansProps> = ({ plans }) => {
                 </div>
 
                 {/* Botão de Agendamento */}
-                <button
-                  className={`mt-auto w-full py-5 rounded-sm font-black uppercase tracking-[0.2em] transition-all relative z-10 ${
-                    plan.highlight
-                      ? 'bg-[#C5A47E] text-brand-dark hover:bg-[#DBC1A0] shadow-lg shadow-[#C5A47E]/20'
-                      : 'border-2 border-[#C5A47E] text-[#C5A47E] hover:bg-[#C5A47E]/10'
-                  }`}
+                <a
+                  href={`https://wa.me/5527997627631?text=${encodeURIComponent(plan.menssage)}`}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='mt-auto w-full relative z-10 block'
                 >
-                  Agende sua entrevista
-                </button>
+                  <button
+                    className={`mt-auto w-full py-5 rounded-sm font-black uppercase tracking-[0.2em] transition-all relative z-10 ${
+                      plan.highlight
+                        ? 'bg-[#C5A47E] text-brand-dark hover:bg-[#DBC1A0] shadow-lg shadow-[#C5A47E]/20'
+                        : 'border-2 border-[#C5A47E] text-[#C5A47E] hover:bg-[#C5A47E]/10'
+                    }`}
+                  >
+                    Agende sua entrevista
+                  </button>
+                </a>
                 <p className='text-center text-[10px] text-white/30 uppercase mt-4 tracking-widest'>
                   Seleção por perfil de aluno
                 </p>
