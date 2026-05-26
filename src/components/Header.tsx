@@ -132,6 +132,14 @@ const Header: React.FC = () => {
           </div>
 
           <Link
+            to='/quem-somos'
+            onClick={closeMobileMenu}
+            className='text-lg font-black uppercase tracking-widest text-white flex items-center gap-3 border-t border-white/10 pt-6'
+          >
+            Quem Somos
+          </Link>
+
+          <Link
             to='/contato'
             onClick={closeMobileMenu}
             className='text-lg font-black uppercase tracking-widest text-white flex items-center gap-3 border-t border-white/10 pt-6'

@@ -52,7 +52,7 @@ const TrustInfo: React.FC = () => {
               <div className='flex items-center gap-3 text-white/60 hover:text-brand-primary transition-colors cursor-pointer'>
                 <MessageCircle size={18} />
                 <span className='text-sm font-medium'>
-                  WhatsApp: (11) 99999-9999
+                  WhatsApp: (27) 99762-7631
                 </span>
               </div>
             </a>

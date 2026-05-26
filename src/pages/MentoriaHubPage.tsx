@@ -31,7 +31,7 @@ const MentoriaHubPage: React.FC = () => {
           </h1>
           <p className='text-brand-light/60 text-lg md:text-xl max-w-3xl mx-auto mb-10'>
             Um método que nasceu da experiência de quem passou por concursos e
-            residências médicas e entendeu que mesmo que você tenha o melhor
+            residências médicas e concluiu que mesmo que você tenha o melhor
             material do mundo, sem os três pilares: cronograma inteligente
             personalizado, disciplina estratégica e acompanhamento real, você
             terá dificuldades em sua aprovação. Está é a solução que falta para

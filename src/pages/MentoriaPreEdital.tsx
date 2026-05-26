@@ -87,8 +87,8 @@ const MentoriaPosEdital: React.FC = () => {
                 </h4>
                 <p className='text-brand-light/60 text-sm leading-relaxed'>
                   Metas diárias e semanais contendo tarefas teóricas
-                  direcionadas, revisões finais e 350 resumos estratégicos em
-                  texto e vídeo de 20 especialidades médicas.
+                  direcionadas, revisões finais e resumos estratégicos em texto
+                  e vídeo de especialidades médicas.
                 </p>
               </div>
 

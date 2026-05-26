@@ -31,3 +31,4 @@ Thumbs.db
 
 # --- VITE ---
 .vite
+.vercel

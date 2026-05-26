@@ -29,13 +29,37 @@ const ContactPage: React.FC = () => {
   });
 
   const onSubmit = async (data: ContactFormSchema) => {
-    console.log('Dados validados e prontos para o Node:', data);
+    const payload = {
+      nome: data.name,
+      whatsapp: data.phone,
+      email: data.mail,
+      objetivo: 'Contato Geral / Suporte',
+      dificuldade: data.message,
+    };
 
-    // temporario para quando tiver o envio para API
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    try {
+      const response = await fetch('/api/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
 
-    alert('Mensagem enviada com sucesso!');
-    reset();
+      if (!response.ok) {
+        throw new Error('Falha na resposta do servidor');
+      }
+
+      alert(
+        'Mensagem enviada com sucesso! Seus dados foram salvos na planilha.',
+      );
+      reset();
+    } catch (error) {
+      console.error('Erro ao enviar formulário:', error);
+      alert(
+        'Houve um erro técnico ao processar seu envio. Por favor, tente novamente.',
+      );
+    }
   };
 
   const handlePhoneChange = (event: React.ChangeEvent<HTMLInputElement>) => {
