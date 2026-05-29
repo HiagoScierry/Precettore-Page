@@ -20,7 +20,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   try {
-    const GOOGLE_SCRIPT_URL = process.env.TESTE_GOOGLE_SCRIPT_URL;
+    const GOOGLE_SCRIPT_URL = process.env.TERSTE_GOOGLE_SCRIPT_URL;
 
     if (!GOOGLE_SCRIPT_URL) {
       return res.status(500).json({
