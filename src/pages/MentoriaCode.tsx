@@ -39,6 +39,80 @@ const MentoriaPosEdital: React.FC = () => {
       highlight: true,
       menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE Pré-Edital.Gostaria de agendar minha entrevista de alinhamento para o plano de Precettore Code 12.`,
     },
+    {
+      name: 'Precettore Code 6',
+      access: '6 meses de acesso',
+      subtitle: 'Preparatório Manole Revalida',
+      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
+      artificialIntelligence: 'IA Aris no Período de 6 meses',
+      installments: '6x',
+      value: '459,90',
+      total: '2.759,40',
+      highlight: false,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE.Gostaria de agendar minha entrevista de alinhamento para o Preparatório Manole Revalida 6.`,
+    },
+    {
+      name: 'Precettore Code 12',
+      access: '12 meses de acesso',
+      subtitle: 'Preparatório Manole Revalida',
+      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
+      artificialIntelligence: 'IA Aris no Período de 12 meses',
+      installments: '12x',
+      value: '339,90',
+      total: '4.078,80',
+      highlight: true,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE.Gostaria de agendar minha entrevista de alinhamento para o Preparatório Manole Revalida 12.`,
+    },
+    {
+      name: 'Precettore Code 6',
+      access: '6 meses de acesso',
+      subtitle:
+        'TÍTULO DE ESPECIALISTA EM CLÍNICA MÉDICA  - Preparatório para TECM Manole',
+      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
+      artificialIntelligence: 'IA Aris no Período de 6 meses',
+      installments: '6x',
+      value: '559,90',
+      total: '3.359,40',
+      highlight: false,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE Pré-Edital.Gostaria de agendar minha entrevista de alinhamento para o plano TÍTULO DE ESPECIALISTA EM CLÍNICA MÉDICA  - Preparatório para TECM Manole 6.`,
+    },
+    {
+      name: 'Precettore Code 12',
+      access: '12 meses de acesso',
+      subtitle:
+        'TÍTULO DE ESPECIALISTA EM CLÍNICA MÉDICA  - Preparatório para TECM Manole',
+      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
+      artificialIntelligence: 'IA Aris no Período de 12 meses',
+      installments: '12x',
+      value: '439,90',
+      total: '5.278,80',
+      highlight: true,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE.Gostaria de agendar minha entrevista de alinhamento para o plano TÍTULO DE ESPECIALISTA EM CLÍNICA MÉDICA  - Preparatório para TECM Manole 12.`,
+    },
+    {
+      name: 'Precettore Code 6',
+      access: '6 meses de acesso',
+      subtitle: 'ENAMED - Curso ENAMED ESTRATÉGIA MED',
+      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
+      artificialIntelligence: 'IA Aris no Período de 6 meses',
+      installments: '6x',
+      value: '559,90',
+      total: '3.359,40',
+      highlight: false,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE.Gostaria de agendar minha entrevista de alinhamento para o plano  ENAMED - Curso ENAMED ESTRATÉGIA MED 6.`,
+    },
+    {
+      name: 'Precettore Code 12',
+      access: '12 meses de acesso',
+      subtitle: 'ENAMED - Curso ENAMED ESTRATÉGIA MED',
+      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
+      artificialIntelligence: 'IA Aris no Período de 12 meses',
+      installments: '12x',
+      value: '439,90',
+      total: '5.278,80',
+      highlight: true,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore.Gostaria de agendar minha entrevista de alinhamento para o plano  ENAMED - Curso ENAMED ESTRATÉGIA MED 12.`,
+    },
   ];
 
   return (
@@ -54,18 +128,16 @@ const MentoriaPosEdital: React.FC = () => {
                 Construção de Base Sólida
               </span>
               <h1 className='text-5xl md:text-7xl font-black text-white tracking-tighter mt-4 mb-8 uppercase'>
-                Mentoria Code
-                <br />
+                Mentorias{' '}
                 <span className='text-transparent bg-clip-text bg-linear-to-r from-brand-primary to-cyan-400'>
-                  Pré-Edital
+                  Code
                 </span>
               </h1>
               <p className='text-lg md:text-xl text-brand-light/70 leading-relaxed max-w-3xl'>
-                Desenvolva uma base teórica robusta e sólida antes da abertura
-                do edital. Indicada para médicos e estudantes de medicina que
-                desejam mais tempo em sua preparação, que precisam de organizar
-                seu cronograma de estudo com mais antecedência, personalização e
-                consolidar o conteúdo sem pressa. Aumentando de forma
+                Desenvolva uma base teórica robusta e sólida. Indicada para
+                médicos e estudantes de medicina que desejam mais tempo em sua
+                preparação, que precisam de organizar seu cronograma de estudo
+                com personalização e consolidar o conteúdo. Aumentando de forma
                 exponencial as chances de aprovação na primeira tentativa.
               </p>
 

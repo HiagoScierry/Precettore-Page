@@ -3,8 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import ContactPage from '../pages/ContactPage';
 import MentoriaHubPage from '../pages/MentoriaHubPage';
-import MentoriaPosEdital from '../pages/MentoriaPosEdital';
-import MentoriaPreEdital from '../pages/MentoriaPreEdital';
+import MentoriaCode from '../pages/MentoriaCode';
 import QuemSomos from '../pages/QuemSomos';
 
 const AppRoutes: React.FC = () => {
@@ -13,8 +12,7 @@ const AppRoutes: React.FC = () => {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/mentoria' element={<MentoriaHubPage />} />
-        <Route path='/mentoria-pos-edital' element={<MentoriaPosEdital />} />
-        <Route path='/mentoria-pre-edital' element={<MentoriaPreEdital />} />
+        <Route path='/mentoria-code' element={<MentoriaCode />} />
         <Route path='/contato' element={<ContactPage />} />
         <Route path='/quem-somos' element={<QuemSomos />} />
 

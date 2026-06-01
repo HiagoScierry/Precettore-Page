@@ -156,7 +156,7 @@ const MentoriaHubPage: React.FC = () => {
           id='trilhas'
           className='py-24 bg-white/2 border-y border-white/5'
         >
-          <div className='max-w-360 mx-auto  px-4 md:px-10 lg:px-18'>
+          <div className='max-w-360 mx-auto flex flex-col items-center px-4 md:px-10 lg:px-18'>
             <div className='text-center mb-16'>
               <h2 className='text-3xl md:text-5xl font-black uppercase tracking-tight mb-4'>
                 Inteligência aplicada a sua aprovação
@@ -166,7 +166,7 @@ const MentoriaHubPage: React.FC = () => {
               </p>
             </div>
 
-            <div className='grid lg:grid-cols-2 gap-10 max-w-6xl mx-auto'>
+            <div className='text-center gap 10 max-w-100'>
               {/* CARD 1: PRÉ-EDITAL */}
               <div className='bg-[#0A1622] p-8 md:p-12 border border-white/5 rounded-2xl flex flex-col justify-between group hover:border-brand-primary/30 transition-all duration-300'>
                 <div>
@@ -174,7 +174,7 @@ const MentoriaHubPage: React.FC = () => {
                     Foco em Base e Retenção
                   </span>
                   <h3 className='text-2xl font-black uppercase mb-4 text-[#C5A47E]'>
-                    Code Pré-Edital
+                    Mentorias Code
                   </h3>
                   <p className='text-white/60 text-sm mb-6'>
                     Construção de base sólida de longo prazo, consolidação de
@@ -182,31 +182,9 @@ const MentoriaHubPage: React.FC = () => {
                     abertura do edital.
                   </p>
                 </div>
-                <Link to='/mentoria-pre-edital'>
+                <Link to='/mentoria-code'>
                   <button className='w-full py-4 bg-white/5 group-hover:bg-brand-primary group-hover:text-brand-dark transition-all duration-300 font-bold uppercase tracking-wider text-xs rounded-lg'>
-                    Conhecer Formato Pré-Edital
-                  </button>
-                </Link>
-              </div>
-
-              {/* CARD 2: PÓS-EDITAL */}
-              <div className='bg-[#0A1622] p-8 md:p-12 border border-white/5 rounded-2xl flex flex-col justify-between group hover:border-brand-primary/30 transition-all duration-300'>
-                <div>
-                  <span className='text-brand-primary font-bold text-xs uppercase tracking-widest block mb-2'>
-                    Reta Final e Velocidade
-                  </span>
-                  <h3 className='text-2xl font-black uppercase mb-4 text-[#C5A47E]'>
-                    Code Pós-Edital
-                  </h3>
-                  <p className='text-white/60 text-sm mb-6'>
-                    Treinamento intensivo de simulados, ajustes finos de
-                    desempenho em pontos fracos imediatos e táticas de guerra
-                    para o dia da prova.
-                  </p>
-                </div>
-                <Link to='/mentoria-pos-edital'>
-                  <button className='w-full py-4 bg-white/5 group-hover:bg-brand-primary group-hover:text-brand-dark transition-all duration-300 font-bold uppercase tracking-wider text-xs rounded-lg'>
-                    Conhecer Formato Pós-Edital
+                    Conhecer Formatos
                   </button>
                 </Link>
               </div>

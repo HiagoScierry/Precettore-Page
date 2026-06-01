@@ -16,7 +16,7 @@ const TrustInfo: React.FC = () => {
           <div className='flex items-center gap-4'>
             {/* Instagram */}
             <a
-              href='https://www.instagram.com/precettore.aprova/'
+              href='https://www.instagram.com/precettore.med/'
               target='_blank'
               rel='noopener noreferrer'
               className='p-2 rounded-full border border-white/10 text-white/60 hover:bg-brand-primary hover:text-brand-dark transition-all'
@@ -69,10 +69,6 @@ const TrustInfo: React.FC = () => {
             <div className='flex items-center gap-2 px-3 py-2 bg-white/5 rounded border border-white/10 text-white/40'>
               <CreditCard size={20} />
               <span className='text-[10px] font-bold uppercase'>Cartão</span>
-            </div>
-            <div className='flex items-center gap-2 px-3 py-2 bg-white/5 rounded border border-white/10 text-white/40'>
-              <Barcode size={20} />
-              <span className='text-[10px] font-bold uppercase'>Boleto</span>
             </div>
             <div className='flex items-center gap-2 px-3 py-2 bg-white/5 rounded border border-white/10 text-white/40'>
               <QrCode size={20} />

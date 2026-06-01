@@ -43,9 +43,9 @@ const TutorySection: React.FC = () => {
     {
       //MUDAR ESTE E ENCAIXALO CORRETAMENTE NO GRID
       icon: <BrainCircuit className='text-purple-400' size={28} />,
-      title: 'Mentoria PRECETTORE CODE',
+      title: 'CICLO DE ESTUDOS E QUESTÕES',
       description:
-        'A aprovação em exames de alto nível não exige apenas conhecimento, exige precisão. É por isso que criamos o Método CODE: o verdadeiro código da aprovação. Uma arquitetura de raciocínio clínico e estratégico desenhada para decodificar o padrão das bancas. Pare de memorizar e comece a raciocinar como um especialista.',
+        'Os ciclos de estudo e ciclos de questões da Precettore Code foram desenvolvidos para transformar seu tempo de preparação em performance real. Através de uma organização inteligente, você estuda de forma contínua, revisa nos momentos certos e treina questões direcionadas para identificar pontos fracos e fortalecer seu raciocínio clínico. Tudo adaptado à sua rotina, com foco em acelerar sua evolução e aumentar suas chances de aprovação.',
     },
   ];
 
@@ -57,10 +57,13 @@ const TutorySection: React.FC = () => {
             Tecnologia de Ponta
           </span>
           <h2 className='text-3xl md:text-4xl font-black uppercase tracking-tight mb-4'>
-            A Experiência Tutory
+            Plataforma Inteligente
           </h2>
           <p className='text-white/60 text-sm leading-relaxed'>
-            A <span className='text-white font-bold'>Plataforma Tutory</span>{' '}
+            A{' '}
+            <span className='text-white font-bold'>
+              Plataforma Inteligente{' '}
+            </span>
             transforma seu material em um plano de estudos personalizado,
             organiza a sua semana, programa suas revisões automaticamente e
             mostra sua evolução real com estatística. Gera feedbacks de melhoria
@@ -70,10 +73,10 @@ const TutorySection: React.FC = () => {
         <div className='lg:col-span-7 bg-brand-primary/5 border border-brand-primary/10 rounded-2xl p-6 flex items-start gap-4'>
           <ShieldAlert className='text-brand-primary shrink-0 mt-1' size={20} />
           <p className='text-xs md:text-sm text-brand-light/80 font-medium leading-relaxed'>
-            A Plataforma Tutory foi criada para médicos e estudantes de medicina
-            que desejam ter um plano de estudo personalizado e inteligente,
-            transformando cada erro cometido na sua estratégia de amanhã,
-            garantindo que você estude exatamente o que precisa para ser
+            A Plataforma Inteligente foi criada para médicos e estudantes de
+            medicina que desejam ter um plano de estudo personalizado e
+            inteligente, transformando cada erro cometido na sua estratégia de
+            amanhã, garantindo que você estude exatamente o que precisa para ser
             aprovado.
           </p>
         </div>

@@ -66,16 +66,10 @@ const Header: React.FC = () => {
             >
               <div className='bg-brand-dark border border-white/10 rounded-xl p-2 shadow-2xl'>
                 <Link
-                  to='/mentoria-pos-edital'
+                  to='/mentoria-code'
                   className='block px-4 py-3 text-xs font-bold uppercase tracking-tighter text-white hover:bg-brand-primary hover:text-brand-dark rounded-lg transition-colors'
                 >
-                  Precettore Code Pós Edital
-                </Link>
-                <Link
-                  to='/mentoria-pre-edital'
-                  className='block px-4 py-3 text-xs font-bold uppercase tracking-tighter text-white hover:bg-brand-primary hover:text-brand-dark rounded-lg transition-colors'
-                >
-                  Precettore Code Pré Edital
+                  Mentorias Code
                 </Link>
               </div>
             </div>

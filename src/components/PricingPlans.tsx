@@ -10,6 +10,7 @@ import {
 export type PlanType = {
   name: string;
   access: string;
+  subtitle?: String;
   mentorship: string;
   artificialIntelligence: string;
   installments: string;
@@ -69,11 +70,17 @@ const PricingPlans: React.FC<PricingPlansProps> = ({ plans }) => {
                       <Calendar size={16} className='text-[#C5A47E]' />
                       {plan.access}
                     </div>
+                    {plan.subtitle ? (
+                      <div className='flex items-center gap-2 text-brand-primary'>
+                        <Users size={16} />
+                        {plan.subtitle}
+                      </div>
+                    ) : null}
+
                     <div className='flex items-center gap-2 text-brand-primary'>
                       <Users size={16} />
                       MENTORIAS: {plan.mentorship}
                     </div>
-
                     <div className='flex items-center gap-2 text-brand-primary'>
                       <Sparkles size={16} />
                       INCLUSO: {plan.artificialIntelligence}
@@ -116,7 +123,7 @@ const PricingPlans: React.FC<PricingPlansProps> = ({ plans }) => {
                         : 'border-2 border-[#C5A47E] text-[#C5A47E] hover:bg-[#C5A47E]/10'
                     }`}
                   >
-                    Agende sua entrevista
+                    MATRICULE-SE AGORA
                   </button>
                 </a>
                 <p className='text-center text-[10px] text-white/30 uppercase mt-4 tracking-widest'>
