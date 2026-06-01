@@ -24,7 +24,7 @@ const MentoriaPosEdital: React.FC = () => {
       artificialIntelligence: 'IA Aris no Período de 6 meses',
       installments: '6x',
       value: '259,90',
-      total: '1.559,400',
+      total: '1.559,40',
       highlight: false,
       menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE Pré-Edital.Gostaria de agendar minha entrevista de alinhamento para o plano de Precettore Code 6.`,
     },
