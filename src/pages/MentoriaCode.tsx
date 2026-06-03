@@ -134,11 +134,22 @@ const MentoriaPosEdital: React.FC = () => {
                 </span>
               </h1>
               <p className='text-lg md:text-xl text-brand-light/70 leading-relaxed max-w-3xl'>
-                Desenvolva uma base teórica robusta e sólida. Indicada para
-                médicos e estudantes de medicina que desejam mais tempo em sua
-                preparação, que precisam de organizar seu cronograma de estudo
-                com personalização e consolidar o conteúdo. Aumentando de forma
-                exponencial as chances de aprovação na primeira tentativa.
+                A Mentoria Precettore CODE foi criada para acompanhar você em
+                todas as etapas da sua preparação de médicos e estudantes de
+                medicina desde o ciclo básico até as provas de Residência
+                Médica, Revalida e Concursos Médicos. Oferecemos um ciclo
+                completo e estruturado de estudos, cobrindo desde a construção
+                da sua base teórica até a revisão de altíssima intensidade, e a
+                depender do seu plano pode ter acesso a acompanhamento
+                personalizado de um mentor e materiais focados no que realmente
+                cai nas provas.
+              </p>
+              <br />
+              <p className='text-lg md:text-xl text-brand-light/70 leading-relaxed max-w-3xl'>
+                Seja você estudante de Medicina ou médico formado, a Precettore
+                CODE é o caminho mais seguro para organizar sua rotina,
+                construir uma base teórica sólida, revisar com estratégia e
+                garantir o seu alto desempenho.
               </p>
 
               <div className='mt-6 flex flex-wrap gap-4 text-xs md:text-sm font-bold uppercase tracking-wider text-brand-primary/80'></div>
