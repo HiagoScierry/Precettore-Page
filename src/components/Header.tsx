@@ -110,18 +110,11 @@ const Header: React.FC = () => {
               Mentorias
             </span>
             <Link
-              to='/mentoria-pos-edital'
+              to='/mentoria-code'
               onClick={closeMobileMenu}
               className='block px-4 py-3 text-xs font-bold uppercase tracking-tighter text-white hover:bg-brand-primary hover:text-brand-dark rounded-lg transition-colors'
             >
-              Precettore Code Pós Edital
-            </Link>
-            <Link
-              to='/mentoria-pre-edital'
-              onClick={closeMobileMenu}
-              className='block px-4 py-3 text-xs font-bold uppercase tracking-tighter text-white hover:bg-brand-primary hover:text-brand-dark rounded-lg transition-colors'
-            >
-              Precettore Code Pré Edital
+              Mentoria Code
             </Link>
           </div>
 

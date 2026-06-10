@@ -18,100 +18,59 @@ const MentoriaPosEdital: React.FC = () => {
 
   const preEditalPlans = [
     {
-      name: 'Precettore Code 6',
-      access: '6 meses de acesso',
-      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
-      artificialIntelligence: 'IA Aris no Período de 6 meses',
-      installments: '6x',
-      value: '259,90',
-      total: '1.559,40',
-      highlight: false,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE Pré-Edital.Gostaria de agendar minha entrevista de alinhamento para o plano de Precettore Code 6.`,
-    },
-    {
-      name: 'Precettore Code 12',
-      access: '12 meses de acesso',
-      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
-      artificialIntelligence: 'IA Aris no Período de 12 meses',
+      name: 'Assinatura Anual',
+      subtitle: 'Acesso Exclusivo à Plataforma Inteligente (Sem Mentoria)',
+      access: '12 meses de acesso à plataforma',
+      mentorship:
+        'Estudo 100% autônomo e independente (Não inclui mentor individual/grupo)',
+      artificialIntelligence:
+        'Planejamento automático, cronômetro de horas e estatísticas em tempo real',
       installments: '12x',
-      value: '249,90',
-      total: '2.998,80',
-      highlight: true,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE Pré-Edital.Gostaria de agendar minha entrevista de alinhamento para o plano de Precettore Code 12.`,
-    },
-    {
-      name: 'Precettore Code 6',
-      access: '6 meses de acesso',
-      subtitle: 'Preparatório Manole Revalida',
-      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
-      artificialIntelligence: 'IA Aris no Período de 6 meses',
-      installments: '6x',
-      value: '459,90',
-      total: '2.759,40',
+      value: '39,90',
+      total: '299,90 à vista no PIX',
       highlight: false,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE.Gostaria de agendar minha entrevista de alinhamento para o Preparatório Manole Revalida 6.`,
+      menssage: `Olá! Tenho interesse na Assinatura Anual da plataforma Precettore CODE. Gostaria de garantir meu acesso pelo valor de 12x R$ 39,90 ou R$ 299,90 à vista.`,
     },
     {
-      name: 'Precettore Code 12',
+      name: 'Ciclo Básico',
+      subtitle: 'Público-alvo: Estudantes de Medicina',
       access: '12 meses de acesso',
-      subtitle: 'Preparatório Manole Revalida',
-      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
-      artificialIntelligence: 'IA Aris no Período de 12 meses',
+      mentorship: '1 encontro semanal em grupo + 1 encontro mensal individual',
+      artificialIntelligence:
+        'Plataforma com 200 mil questões, 5 mil videoaulas e 2 mil materiais',
       installments: '12x',
-      value: '339,90',
-      total: '4.078,80',
-      highlight: true,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE.Gostaria de agendar minha entrevista de alinhamento para o Preparatório Manole Revalida 12.`,
+      value: '109,90',
+      total: '799,90 à vista no PIX',
+      highlight: false,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE - Ciclo Básico. Gostaria de saber mais sobre o plano de 12x R$ 109,90 ou R$ 799,90 à vista.`,
     },
     {
-      name: 'Precettore Code 6',
-      access: '6 meses de acesso',
+      name: 'Revalida',
       subtitle:
-        'TÍTULO DE ESPECIALISTA EM CLÍNICA MÉDICA  - Preparatório para TECM Manole',
-      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
-      artificialIntelligence: 'IA Aris no Período de 6 meses',
-      installments: '6x',
-      value: '559,90',
-      total: '3.359,40',
-      highlight: false,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE Pré-Edital.Gostaria de agendar minha entrevista de alinhamento para o plano TÍTULO DE ESPECIALISTA EM CLÍNICA MÉDICA  - Preparatório para TECM Manole 6.`,
-    },
-    {
-      name: 'Precettore Code 12',
-      access: '12 meses de acesso',
-      subtitle:
-        'TÍTULO DE ESPECIALISTA EM CLÍNICA MÉDICA  - Preparatório para TECM Manole',
-      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
-      artificialIntelligence: 'IA Aris no Período de 12 meses',
-      installments: '12x',
-      value: '439,90',
-      total: '5.278,80',
-      highlight: true,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE.Gostaria de agendar minha entrevista de alinhamento para o plano TÍTULO DE ESPECIALISTA EM CLÍNICA MÉDICA  - Preparatório para TECM Manole 12.`,
-    },
-    {
-      name: 'Precettore Code 6',
+        'Público-alvo: Estudantes do último ano e Médicos em Revalidação',
       access: '6 meses de acesso',
-      subtitle: 'ENAMED - Curso ENAMED ESTRATÉGIA MED',
-      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
-      artificialIntelligence: 'IA Aris no Período de 6 meses',
+      mentorship: '1 encontro semanal em grupo + 1 encontro mensal individual',
+      artificialIntelligence:
+        'Cronograma focado no edital INEP Revalida + Banco com 200 mil questões',
       installments: '6x',
-      value: '559,90',
-      total: '3.359,40',
+      value: '189,90',
+      total: '899,90 à vista no PIX',
       highlight: false,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE.Gostaria de agendar minha entrevista de alinhamento para o plano  ENAMED - Curso ENAMED ESTRATÉGIA MED 6.`,
+      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE - Revalida. Gostaria de iniciar minha preparação focada no INEP.`,
     },
     {
-      name: 'Precettore Code 12',
+      name: 'ENAMED / Residências',
+      subtitle: 'Público-alvo: Estudantes do último ano e Médicos',
       access: '12 meses de acesso',
-      subtitle: 'ENAMED - Curso ENAMED ESTRATÉGIA MED',
-      mentorship: 'Inviduais a cada mês e em grupo a cada 15 dias',
-      artificialIntelligence: 'IA Aris no Período de 12 meses',
+      mentorship:
+        '1 encontro mensal individual com o mentor para ajuste de metas',
+      artificialIntelligence:
+        'Acesso completo ao Curso Extensivo do Estratégia MED Residência e ENAMED',
       installments: '12x',
-      value: '439,90',
-      total: '5.278,80',
+      value: '659,90',
+      total: '5.999,90 à vista no PIX',
       highlight: true,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore.Gostaria de agendar minha entrevista de alinhamento para o plano  ENAMED - Curso ENAMED ESTRATÉGIA MED 12.`,
+      menssage: `Olá! Tenho interesse em entrar no Curso Extensivo + Mentoria Precettore CODE - ENAMED/Residências.`,
     },
   ];
 
@@ -125,31 +84,46 @@ const MentoriaPosEdital: React.FC = () => {
           <div className='max-w-360 mx-auto px-6 md:px-12 lg:px-20'>
             <div className='max-w-4xl'>
               <span className='text-brand-primary font-black uppercase tracking-[0.3em] text-sm'>
-                Construção de Base Sólida
+                Plataforma Inteligente de Estudos Personalizados
               </span>
+
               <h1 className='text-5xl md:text-7xl font-black text-white tracking-tighter mt-4 mb-8 uppercase'>
-                Mentorias{' '}
+                Precettore{' '}
                 <span className='text-transparent bg-clip-text bg-linear-to-r from-brand-primary to-cyan-400'>
                   Code
                 </span>
               </h1>
-              <p className='text-lg md:text-xl text-brand-light/70 leading-relaxed max-w-3xl'>
-                A Mentoria Precettore CODE foi criada para acompanhar você em
-                todas as etapas da sua preparação de médicos e estudantes de
-                medicina desde o ciclo básico até as provas de Residência
-                Médica, Revalida e Concursos Médicos. Oferecemos um ciclo
-                completo e estruturado de estudos, cobrindo desde a construção
-                da sua base teórica até a revisão de altíssima intensidade, e a
-                depender do seu plano pode ter acesso a acompanhamento
-                personalizado de um mentor e materiais focados no que realmente
-                cai nas provas.
+
+              <p className='text-xl md:text-2xl text-brand-primary font-bold leading-snug max-w-3xl mb-6 italic'>
+                "Apoiando o estudante de medicina que está no exterior do ciclo
+                básico ao revalida, venha ser nosso mentorado(a) e se somar a
+                centenas de histórias de sucesso!"
               </p>
+
+              <p className='text-lg md:text-xl text-brand-light/70 leading-relaxed max-w-3xl font-medium '>
+                Pare de adaptar sua vida aos estudos. Faça seus estudos se
+                adaptarem à sua vida. A plataforma{' '}
+                <span className='text-white/90'>Precettore CODE</span> foi
+                desenhada para centralizar e otimizar toda a sua preparação
+                médica — do ciclo básico às provas de Residência, Revalida e
+                Concursos.
+              </p>
+
               <br />
+
               <p className='text-lg md:text-xl text-brand-light/70 leading-relaxed max-w-3xl'>
-                Seja você estudante de Medicina ou médico formado, a Precettore
-                CODE é o caminho mais seguro para organizar sua rotina,
-                construir uma base teórica sólida, revisar com estratégia e
-                garantir o seu alto desempenho.
+                Através de uma metodologia de altíssima intensidade, você terá
+                acesso a um ciclo completo de cronogramas automatizados e
+                revisões estratégicas. Escolha entre o{' '}
+                <span className='text-white/90'>
+                  Plano Anual Exclusivo da Plataforma
+                </span>{' '}
+                para guiar sua jornada de forma independente, ou impulsione sua
+                performance adicionando o{' '}
+                <span className='text-white/90'>
+                  Acompanhamento Personalizado
+                </span>{' '}
+                de um mentor VIP.
               </p>
 
               <div className='mt-6 flex flex-wrap gap-4 text-xs md:text-sm font-bold uppercase tracking-wider text-brand-primary/80'></div>
