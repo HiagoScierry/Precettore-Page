@@ -120,11 +120,13 @@ const QuemSomos: React.FC = () => {
               <p className='text-xl italic max-w-4xl mx-auto text-slate-200 leading-relaxed'>
                 "A Precettore nasceu para preencher a lacuna que o mercado
                 tradicional ignora. Entendemos que mesmo com o melhor material
-                do mundo, o aluno falhará se não dominar os três pilares
-                essenciais: cronograma inteligente personalizado, disciplina
-                estratégica e acompanhamento real. Nosso objetivo é decodificar
-                o padrão das bancas e transformar suas horas de estudo em
-                aprovação acelerada."
+                do mundo, o aluno falhará se não dominar os{' '}
+                <strong>
+                  três pilares essenciais: cronograma inteligente personalizado,
+                  disciplina estratégica e acompanhamento real
+                </strong>
+                . Nosso objetivo é decodificar o padrão das bancas e transformar
+                suas horas de estudo em aprovação acelerada."
               </p>
 
               <p className='mt-6 text-[#C5A47E] font-semibold tracking-wider uppercase text-sm'>

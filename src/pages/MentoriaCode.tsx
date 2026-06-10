@@ -40,9 +40,8 @@ const MentoriaPosEdital: React.FC = () => {
       artificialIntelligence:
         'Plataforma com banco de questões, videoaulas e materiais',
       installments: '12x',
-      value: '109,90',
-      total:
-        '799,90 à vista no PIX ou 358,90 com 40% de desconto para parcerias com atléticas.',
+      value: '358,90',
+      total: '3890,00 à vista no PIX.',
       highlight: false,
       menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE - Ciclo Básico. Gostaria de saber mais sobre o plano de 12x R$ 109,90 ou R$ 799,90 à vista.`,
     },
