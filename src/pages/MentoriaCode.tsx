@@ -35,12 +35,14 @@ const MentoriaPosEdital: React.FC = () => {
       name: 'Ciclo Básico',
       subtitle: 'Público-alvo: Estudantes de Medicina',
       access: '12 meses de acesso',
-      mentorship: '1 encontro semanal em grupo + 1 encontro mensal individual',
+      mentorship:
+        'MENTORIAS: 1 encontro semanal em grupo + 1 encontro mensal individual',
       artificialIntelligence:
-        'Plataforma com 200 mil questões, 5 mil videoaulas e 2 mil materiais',
+        'Plataforma com banco de questões, videoaulas e materiais',
       installments: '12x',
       value: '109,90',
-      total: '799,90 à vista no PIX',
+      total:
+        '799,90 à vista no PIX ou 358,90 com 40% de desconto para parcerias com atléticas.',
       highlight: false,
       menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE - Ciclo Básico. Gostaria de saber mais sobre o plano de 12x R$ 109,90 ou R$ 799,90 à vista.`,
     },
@@ -49,12 +51,13 @@ const MentoriaPosEdital: React.FC = () => {
       subtitle:
         'Público-alvo: Estudantes do último ano e Médicos em Revalidação',
       access: '6 meses de acesso',
-      mentorship: '1 encontro semanal em grupo + 1 encontro mensal individual',
+      mentorship:
+        'MENTORIAS: 1 encontro semanal em grupo + 1 encontro mensal individual',
       artificialIntelligence:
-        'Cronograma focado no edital INEP Revalida + Banco com 200 mil questões',
+        'Cronograma focado no edital INEP Revalida + Banco com questões',
       installments: '6x',
-      value: '189,90',
-      total: '899,90 à vista no PIX',
+      value: '299,90',
+      total: '1421,16 à vista no PIX',
       highlight: false,
       menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE - Revalida. Gostaria de iniciar minha preparação focada no INEP.`,
     },
@@ -63,7 +66,7 @@ const MentoriaPosEdital: React.FC = () => {
       subtitle: 'Público-alvo: Estudantes do último ano e Médicos',
       access: '12 meses de acesso',
       mentorship:
-        '1 encontro mensal individual com o mentor para ajuste de metas',
+        'MENTORIAS: 1 encontro mensal individual com o mentor para ajuste de metas',
       artificialIntelligence:
         'Acesso completo ao Curso Extensivo do Estratégia MED Residência e ENAMED',
       installments: '12x',

@@ -79,7 +79,7 @@ const PricingPlans: React.FC<PricingPlansProps> = ({ plans }) => {
 
                     <div className='flex items-center gap-2 text-brand-primary'>
                       <Users size={16} />
-                      MENTORIAS: {plan.mentorship}
+                      {plan.mentorship}
                     </div>
                     <div className='flex items-center gap-2 text-brand-primary'>
                       <Sparkles size={16} />
