@@ -126,9 +126,6 @@ const PricingPlans: React.FC<PricingPlansProps> = ({ plans }) => {
                     MATRICULE-SE AGORA
                   </button>
                 </a>
-                <p className='text-center text-[10px] text-white/30 uppercase mt-4 tracking-widest'>
-                  Seleção por perfil de aluno
-                </p>
               </div>
             </div>
           ))}
