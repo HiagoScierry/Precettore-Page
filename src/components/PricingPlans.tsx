@@ -17,7 +17,7 @@ export type PlanType = {
   value: string;
   total: string;
   highlight: boolean;
-  menssage: string;
+  menssage?: string;
 };
 
 interface PricingPlansProps {
@@ -111,7 +111,11 @@ const PricingPlans: React.FC<PricingPlansProps> = ({ plans }) => {
 
                 {/* Botão de Agendamento */}
                 <a
-                  href={`https://wa.me/5527997627631?text=${encodeURIComponent(plan.menssage)}`}
+                  href={
+                    plan.menssage
+                      ? `https://wa.me/5527997627631?text=${encodeURIComponent(plan.menssage)}`
+                      : `https://medeor.com.br/precettorecode`
+                  }
                   target='_blank'
                   rel='noopener noreferrer'
                   className='mt-auto w-full relative z-10 block'

@@ -3,13 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PricingPlans from '../components/PricingPlans';
 import TrustInfo from '../components/TrustInfo';
-import {
-  BookOpen,
-  Database,
-  MessagesSquare,
-  Calendar,
-  CheckCircle,
-} from 'lucide-react';
+import { BookOpen, MessagesSquare } from 'lucide-react';
 
 const MentoriaPosEdital: React.FC = () => {
   useEffect(() => {
@@ -43,7 +37,6 @@ const MentoriaPosEdital: React.FC = () => {
       value: '358,90',
       total: '3890,00 à vista no PIX.',
       highlight: false,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE - Ciclo Básico. Gostaria de saber mais sobre o plano de 12x R$ 109,90 ou R$ 799,90 à vista.`,
     },
     {
       name: 'Revalida',
@@ -58,7 +51,6 @@ const MentoriaPosEdital: React.FC = () => {
       value: '299,90',
       total: '1421,16 à vista no PIX',
       highlight: false,
-      menssage: `Olá! Tenho interesse em entrar na Mentoria Precettore CODE - Revalida. Gostaria de iniciar minha preparação focada no INEP.`,
     },
     {
       name: 'ENAMED / Residências',
@@ -72,7 +64,6 @@ const MentoriaPosEdital: React.FC = () => {
       value: '659,90',
       total: '5.999,90 à vista no PIX',
       highlight: true,
-      menssage: `Olá! Tenho interesse em entrar no Curso Extensivo + Mentoria Precettore CODE - ENAMED/Residências.`,
     },
   ];
 
