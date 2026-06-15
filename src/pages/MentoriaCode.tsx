@@ -23,7 +23,6 @@ const MentoriaPosEdital: React.FC = () => {
       value: '39,90',
       total: '299,90 à vista no PIX',
       highlight: false,
-      menssage: `Olá! Tenho interesse na Assinatura Anual da plataforma Precettore CODE. Gostaria de garantir meu acesso pelo valor de 12x R$ 39,90 ou R$ 299,90 à vista.`,
     },
     {
       name: 'Ciclo Básico',
