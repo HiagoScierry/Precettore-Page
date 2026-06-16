@@ -14,21 +14,21 @@ const Hero: React.FC = () => {
               Método Comprovado
             </span>
             <h1 className='text-4xl md:text-6xl font-black text-white leading-tight  mb-6'>
-              Domine a Medicina com a{' '}
+              Passe na prova do{' '}
               <span className='text-transparent bg-clip-text bg-linear-to-r from-brand-primary to-brand-secondary'>
-                Estratégia Certa
-              </span>
+                ENAMED/Revalida
+              </span>{' '}
+              estudando apenas oque importa
             </h1>
             <p className='text-lg md:text-xl text-brand-light/80 mb-10 max-w-2xl mx-auto lg:mx-0'>
-              Na Precettore Code, sua dedicação encontra a estratégia.
-              Transformamos seu volume de estudo em performance através da nossa
-              metodologia validada. Estude com inteligência e garanta sua
-              aprovação!
+              Com o método Precettore Med, você foca no que realmente cai.
+              Construa domínio, ritmo e estratégia com o programa ideal para o
+              seu momento.
             </p>
             <div className='flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4'>
-              <Link to='mentoria'>
+              <Link to='https://medeor.com.br/precettorecode'>
                 <button className='group relative w-full sm:w-auto flex items-center justify-center gap-4 bg-brand-primary hover:bg-brand-primary/90 text-brand-dark px-6 py-4 md:px-10 md:py-6 rounded-2xl font-black text-xl md:text-2xl transition-all shadow-2xl shadow-brand-primary/20 transform hover:-translate-y-1'>
-                  Conhecer o método
+                  Quero Começar Agora
                   <ArrowRight
                     size={24}
                     className='group-hover:translate-x-2 transition-transform'
