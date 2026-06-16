@@ -3,7 +3,7 @@ import { Quote } from 'lucide-react';
 
 const AuthoritySection: React.FC = () => {
   return (
-    <section className='py-20 lg:py-28 relative overflow-hidden bg-brand-dark/40 border-b border-white/5'>
+    <section className='py-20 lg:py-28 relative overflow-hidden bg-brand-primary/8 border-b border-white/5'>
       {/* Luz de fundo centralizada para dar profundidade ao texto */}
       <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-75 bg-brand-primary/5 rounded-full blur-3xl pointer-events-none'></div>
 

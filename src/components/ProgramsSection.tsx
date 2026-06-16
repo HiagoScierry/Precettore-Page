@@ -84,10 +84,11 @@ const ProgramsSection: React.FC = () => {
             Escolha seu nível
           </span>
           <h2 className='text-4xl md:text-6xl font-black text-white leading-tight'>
-            Os 3 Programas <br />
+            03 Programas <br />
             <span className='text-transparent bg-clip-text bg-linear-to-r from-brand-primary to-brand-secondary'>
               Precettore Med
             </span>
+            <div>para você</div>
           </h2>
         </div>
 

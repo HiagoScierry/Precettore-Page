@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
               <span className='text-transparent bg-clip-text bg-linear-to-r from-brand-primary to-brand-secondary'>
                 ENAMED/Revalida
               </span>{' '}
-              estudando apenas oque importa
+              estudando apenas o que importa
             </h1>
             <p className='text-lg md:text-xl text-brand-light/80 mb-10 max-w-2xl mx-auto lg:mx-0'>
               Com o método Precettore Med, você foca no que realmente cai.
