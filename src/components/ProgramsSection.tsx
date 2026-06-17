@@ -34,7 +34,7 @@ const ProgramsSection: React.FC = () => {
         'Ideal para estudantes que ainda estão na faculdade ou querem começar com direção e constância.',
       roma: 'Estude com estratégia e construa uma base sólida estudando apenas o que cai.',
       btnText: 'Quero o Precettore Start',
-      link: 'https://medeor.com.br/precettorecode',
+      link: 'https://medeor.com.br/auth/register?legacy=1&source=select-mentor&intent=platform_only',
     },
     {
       id: 'plus',
@@ -51,7 +51,7 @@ const ProgramsSection: React.FC = () => {
         'Para quem não quer estudar sozinho e precisa de ritmo e supervisão.',
       roma: 'Acelere sua aprovação com orientação contínua, ajustes estratégicos mensais e evolução guiada.',
       btnText: 'Quero o Precettore Plus',
-      link: 'https://medeor.com.br/precettorecode',
+      link: 'https://medeor.com.br/precettorecode/checkout?offeringId=enc_ZzzsG1rV4PHqL2_jtcrRdZ2Pq96roMrS3WM6iOgAUWPhh-qQDPrDfP_YCPX_Wq4P',
     },
     {
       id: 'elite',
@@ -67,7 +67,7 @@ const ProgramsSection: React.FC = () => {
         'Para quem está mais perto da prova, quer assertividade máxima e não pode perder tempo.',
       roma: 'Chegue no ENAMED/Revalida com confiança absoluta, domínio do conteúdo e estratégia vencedora.',
       btnText: 'Quero o Precettore Elite',
-      link: 'https://medeor.com.br/precettorecode',
+      link: 'https://medeor.com.br/precettorecode/checkout?offeringId=enc_NfLnzczRpU_4fDSOADVCPuxMg0w-YY2vBexELuVJ3IVfmAJuLxvjF_UpbUn4wGuk',
       popular: true,
     },
   ];
