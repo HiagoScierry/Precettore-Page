@@ -34,7 +34,7 @@ const ProgramsSection: React.FC = () => {
         'Ideal para estudantes que ainda estão na faculdade ou querem começar com direção e constância.',
       roma: 'Estude com estratégia e construa uma base sólida estudando apenas o que cai.',
       btnText: 'Quero o Precettore Start',
-      link: 'https://medeor.com.br/auth/register?legacy=1&source=select-mentor&intent=platform_only',
+      link: 'https://medeor.com.br/precettorecode/assinatura?canceled=1&provider=asaas',
     },
     {
       id: 'plus',
