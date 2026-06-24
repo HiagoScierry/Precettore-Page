@@ -14,7 +14,6 @@ interface Program {
   link: string;
   popular?: boolean;
   valorMensal: string;
-  valorAnual: string;
 }
 
 const ProgramsSection: React.FC = () => {
@@ -37,8 +36,7 @@ const ProgramsSection: React.FC = () => {
       roma: 'Estude com estratégia e construa uma base sólida estudando apenas o que cai.',
       btnText: 'Quero o Precettore Start',
       link: 'https://medeor.com.br/precettorecode/assinatura?canceled=1&provider=asaas',
-      valorMensal: '99,90 ',
-      valorAnual: '949,90',
+      valorMensal: '99,90',
     },
     {
       id: 'plus',
@@ -56,8 +54,7 @@ const ProgramsSection: React.FC = () => {
       roma: 'Acelere sua aprovação com orientação contínua, ajustes estratégicos mensais e evolução guiada.',
       btnText: 'Quero o Precettore Plus',
       link: 'https://medeor.com.br/precettorecode/checkout?offeringId=enc_ZzzsG1rV4PHqL2_jtcrRdZ2Pq96roMrS3WM6iOgAUWPhh-qQDPrDfP_YCPX_Wq4P',
-      valorMensal: '358,90 ',
-      valorAnual: '4306,80',
+      valorMensal: '358,90',
     },
     {
       id: 'elite',
@@ -75,8 +72,7 @@ const ProgramsSection: React.FC = () => {
       btnText: 'Quero o Precettore Elite',
       link: 'https://medeor.com.br/precettorecode/checkout?offeringId=enc_NfLnzczRpU_4fDSOADVCPuxMg0w-YY2vBexELuVJ3IVfmAJuLxvjF_UpbUn4wGuk',
       popular: true,
-      valorMensal: '689,90 ',
-      valorAnual: '8.278,80',
+      valorMensal: '689,90',
     },
   ];
 
@@ -161,14 +157,13 @@ const ProgramsSection: React.FC = () => {
               {/* Rodapé do Card: Público Alvo e Botão CTA */}
               <div className='mt-auto pt-6 border-t border-white/5'>
                 <div className='min-h-26 bg-white/5 border border-white/5 rounded-2xl p-4 mb-6'>
-                  <p>Valor mensal</p>
+                  <p>A partir de</p>
                   <p>
-                    <span className='text-brand-primary text-3xl font-bold'>
+                    <span className='text-brand-primary text-4xl font-bold'>
                       {program.valorMensal}
                     </span>{' '}
-                    por mês
+                    /mês
                   </p>
-                  <p>Total do pacote: R$ {program.valorAnual} em 12 meses</p>
                 </div>
                 <p className='text-brand-light/50 text-xs italic mb-6 leading-relaxed'>
                   {program.target}
