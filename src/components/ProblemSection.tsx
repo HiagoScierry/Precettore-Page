@@ -10,7 +10,7 @@ const ProblemSection: React.FC = () => {
   ];
 
   return (
-    <section className='bg-brand-primary/8 py-20 lg:py-32 border-t border-b border-white/5'>
+    <section className=' py-20 lg:py-32 border-t border-b border-white/5'>
       <div className='max-w-360 mx-auto px-4 md:px-10 lg:px-18'>
         <div className='max-w-3xl mx-auto text-center mb-16'>
           <h2 className='text-3xl md:text-5xl font-black text-white leading-tight mb-6'>

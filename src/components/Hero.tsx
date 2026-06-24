@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
+  const scrollToPrograms = () => {
+    const element = document.getElementById('programs-section');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <section className='relative pt-8 pb-20 lg:pt-16 lg:pb-32 overflow-hidden'>
       <div className='max-w-360 mx-auto px-4 md:px-10 lg:px-18'>
@@ -26,15 +32,16 @@ const Hero: React.FC = () => {
               seu momento.
             </p>
             <div className='flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4'>
-              <Link to='https://medeor.com.br/precettorecode'>
-                <button className='group relative w-full sm:w-auto flex items-center justify-center gap-4 bg-brand-primary hover:bg-brand-primary/90 text-brand-dark px-6 py-4 md:px-10 md:py-6 rounded-2xl font-black text-xl md:text-2xl transition-all shadow-2xl shadow-brand-primary/20 transform hover:-translate-y-1'>
-                  Quero Começar Agora
-                  <ArrowRight
-                    size={24}
-                    className='group-hover:translate-x-2 transition-transform'
-                  />
-                </button>
-              </Link>
+              <button
+                onClick={scrollToPrograms}
+                className='group relative w-full sm:w-auto flex items-center justify-center gap-4 bg-brand-primary hover:bg-brand-primary/90 text-brand-dark px-6 py-4 md:px-10 md:py-6 rounded-2xl font-black text-xl md:text-2xl transition-all shadow-2xl shadow-brand-primary/20 transform hover:-translate-y-1'
+              >
+                Quero Começar Agora
+                <ArrowRight
+                  size={24}
+                  className='group-hover:translate-x-2 transition-transform'
+                />
+              </button>
             </div>
           </div>
 

@@ -19,11 +19,11 @@ const HomePage: React.FC = () => {
     <div className='min-h-screen bg-brand-dark flex flex-col'>
       <main className='grow'>
         <Hero />
+        <MentorSection />
         <ProblemSection />
         <ProgramsSection />
         <SocialProveSection />
         <TargetAudienceSection />
-        <MentorSection />
         <FinalCtaSection />
         <TrustInfo />
       </main>

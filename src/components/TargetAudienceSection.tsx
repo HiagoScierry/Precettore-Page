@@ -16,7 +16,7 @@ const TargetAudienceSection: React.FC = () => {
   ];
 
   return (
-    <section className='py-20 lg:py-32 relative overflow-hidden border-b border-white/5'>
+    <section className='bg-brand-primary/8  py-20 lg:py-32 relative overflow-hidden border-b border-white/5'>
       <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-brand-primary/5 rounded-full blur-3xl pointer-events-none'></div>
 
       <div className='max-w-360 mx-auto px-4 md:px-10 lg:px-18 relative z-10'>

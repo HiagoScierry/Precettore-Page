@@ -22,7 +22,7 @@ const SocialProveSection: React.FC = () => {
   ];
 
   return (
-    <section className='py-20 lg:py-28 bg-brand-primary/8 relative overflow-hidden border-t border-white/5'>
+    <section className='py-20 lg:py-28relative overflow-hidden border-t border-white/5'>
       <div className='max-w-360 mx-auto px-4 md:px-10 lg:px-18 relative z-10'>
         {/* Cabeçalho */}
         <div className='text-center max-w-3xl mx-auto mb-16'>
