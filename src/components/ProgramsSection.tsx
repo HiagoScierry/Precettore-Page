@@ -36,7 +36,7 @@ const ProgramsSection: React.FC = () => {
       roma: 'Estude com estratégia e construa uma base sólida estudando apenas o que cai.',
       btnText: 'Quero o Precettore Start',
       link: 'https://medeor.com.br/precettorecode/assinatura?canceled=1&provider=asaas',
-      valorMensal: '99,90',
+      valorMensal: '29,90',
     },
     {
       id: 'plus',
